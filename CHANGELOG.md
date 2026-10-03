@@ -1,6 +1,67 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/socialite/compare/v5.24.0...5.x)
+## [Unreleased](https://github.com/laravel/socialite/compare/v5.31.0...5.x)
+
+* Require PHP 8.1 and phpseclib 4.0.
+
+## [v5.31.0](https://github.com/laravel/socialite/compare/v5.30.1...v5.31.0) - 2026-08-31
+
+* Support Guzzle 8 by [@Universal-Omega](https://github.com/Universal-Omega) in https://github.com/laravel/socialite/pull/792
+
+## [v5.30.1](https://github.com/laravel/socialite/compare/v5.30.0...v5.30.1) - 2026-08-24
+
+* Upgrade phpseclib to v4 by [@nguyentranchung](https://github.com/nguyentranchung) in https://github.com/laravel/socialite/pull/791
+
+## [v5.30.0](https://github.com/laravel/socialite/compare/v5.29.0...v5.30.0) - 2026-08-13
+
+* Bump actions/checkout from 7.0.0 to 7.0.1 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/socialite/pull/788
+* fix: Validate Facebook OIDC token nonce by [@meihao550](https://github.com/meihao550) in https://github.com/laravel/socialite/pull/789
+
+## [v5.29.0](https://github.com/laravel/socialite/compare/v5.28.0...v5.29.0) - 2026-07-01
+
+* Bump shivammathur/setup-php from 2.37.1 to 2.37.2 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/socialite/pull/778
+* Bump actions/checkout from 6.0.3 to 7.0.0 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/socialite/pull/782
+* Fix undefined array key error in LinkedIn provider by [@lazerg](https://github.com/lazerg) in https://github.com/laravel/socialite/pull/785
+
+## [v5.28.0](https://github.com/laravel/socialite/compare/v5.27.0...v5.28.0) - 2026-06-12
+
+* Pin GitHub Actions to commit SHAs and add Dependabot config by [@joetannenbaum](https://github.com/joetannenbaum) in https://github.com/laravel/socialite/pull/772
+* Bump shivammathur/setup-php from 2.37.0 to 2.37.1 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/socialite/pull/773
+* Add Dependabot cooldown of 5 days by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/socialite/pull/774
+* Enable Dependabot auto-merge by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/socialite/pull/775
+* [5.x] Add ability to easily fake Socialite users by [@stevebauman](https://github.com/stevebauman) in https://github.com/laravel/socialite/pull/776
+* Bump actions/checkout from 6.0.2 to 6.0.3 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/socialite/pull/777
+
+## [v5.27.0](https://github.com/laravel/socialite/compare/v5.26.1...v5.27.0) - 2026-04-24
+
+* Fix usage of access_token in Bitbucket integration by [@fetzi](https://github.com/fetzi)
+
+## [v5.26.1](https://github.com/laravel/socialite/compare/v5.26.0...v5.26.1) - 2026-03-29
+
+* Use hash_equals for constant-time state comparison by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/socialite/pull/770
+
+## [v5.26.0](https://github.com/laravel/socialite/compare/v5.25.0...v5.26.0) - 2026-03-24
+
+* Remove redundant "When to Apply" section from skill body by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/socialite/pull/766
+* [5.x] Fix workflow YAML syntax and clean up broken CI matrix by [@JoshSalway](https://github.com/JoshSalway) in https://github.com/laravel/socialite/pull/769
+
+## [v5.25.0](https://github.com/laravel/socialite/compare/v5.24.3...v5.25.0) - 2026-02-27
+
+* Add Boost skill for Socialite development by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/socialite/pull/763
+* Rename Boost skill directory to socialite-development by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/socialite/pull/76
+
+## [v5.24.3](https://github.com/laravel/socialite/compare/v5.24.2...v5.24.3) - 2026-02-21
+
+* Laravel 13.x Compatibility by [@laravel-shift](https://github.com/laravel-shift) in https://github.com/laravel/socialite/pull/762
+
+## [v5.24.2](https://github.com/laravel/socialite/compare/v5.24.1...v5.24.2) - 2026-01-10
+
+* Fix FakeProvider to preserve decorator pattern when forwarding calls by [@mohammedmanssour](https://github.com/mohammedmanssour) in https://github.com/laravel/socialite/pull/760
+
+## [v5.24.1](https://github.com/laravel/socialite/compare/v5.24.0...v5.24.1) - 2026-01-01
+
+* Remove redundant `email` mapping causing error for unconfirmed X accounts by [@Gertiozuni](https://github.com/Gertiozuni) in https://github.com/laravel/socialite/pull/757
+* chore: update firebase/php-jwt package by [@itsalifadaei](https://github.com/itsalifadaei) in https://github.com/laravel/socialite/pull/758
 
 ## [v5.24.0](https://github.com/laravel/socialite/compare/v5.23.2...v5.24.0) - 2025-12-09
 
